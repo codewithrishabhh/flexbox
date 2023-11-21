@@ -1,0 +1,37 @@
+* {
+  /* margin: 0;
+    padding: 0; */
+  box-sizing: border-box;
+}
+.header {
+  background-color: #0a0a23;
+  width: 100vw;
+  border-bottom: 4px solid #fdb347;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 32px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  border-radius: 25px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  align-items: center;
+  max-width: 1400px;
+}
+.container img {
+  border-radius: 10px;
+  object-fit: cover;
+  max-width: 350px;
+  height: 300px;
+  width: 100%;
+}
+.container::after{
+    content: "";
+    width: 350px;
+}
